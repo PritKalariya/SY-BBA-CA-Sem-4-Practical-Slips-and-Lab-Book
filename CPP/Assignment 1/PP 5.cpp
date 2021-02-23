@@ -23,5 +23,15 @@ int main() {
 		cout << c << " is maximum.";
 	}
 	
+	cout << "\n";
+	
+	if(a < b && a < c) {
+		cout << a << " is minimum.";
+	} else if(b < a && b < c) {
+		cout << b << " is minimum.";
+	} else {
+		cout << c << " is minimum.";
+	}
+	
 	return 0;
 }
