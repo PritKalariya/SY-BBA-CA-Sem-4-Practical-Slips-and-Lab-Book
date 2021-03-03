@@ -5,16 +5,16 @@ using namespace std;
 
 int main() {
 	int a, b, c;
-	
+
 	cout << "Enter first number: ";
 	cin >> a;
-	
+
 	cout << "Enter second number: ";
 	cin >> b;
-	
+
 	cout << "Enter third number: ";
 	cin >> c;
-	
+
 	if(a > b && a > c) {
 		cout << a << " is maximum.";
 	} else if(b > a && b > c) {
@@ -22,9 +22,9 @@ int main() {
 	} else {
 		cout << c << " is maximum.";
 	}
-	
+
 	cout << "\n";
-	
+
 	if(a < b && a < c) {
 		cout << a << " is minimum.";
 	} else if(b < a && b < c) {
@@ -32,6 +32,6 @@ int main() {
 	} else {
 		cout << c << " is minimum.";
 	}
-	
+
 	return 0;
 }
