@@ -28,6 +28,10 @@ class Student {
             cout << "Student class: " << std_class << endl;
             cout << endl;
         }
+
+        static void display_count() {
+            cout << "Student count is: " << count;
+        }
 };
 
 int Student :: count;
@@ -49,6 +53,8 @@ int main() {
     for(int i=0; i<n; i++) {
         s1[i].display_student();
     }
+
+    Student :: display_count();
 
     return 0;
 }
